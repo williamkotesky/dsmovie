@@ -3,4 +3,25 @@
 
 * {
     font-family: "Open Sans";
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #E8E8E8;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #FFFFFF;
+}
+
+a,a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
